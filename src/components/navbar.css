@@ -1,0 +1,10 @@
+.logo {
+    font-family: "Moirai One", cursive;
+}
+
+.logo:hover {
+    background: linear-gradient(45deg, turquoise, pink);
+    background-size:100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

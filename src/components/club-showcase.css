@@ -1,0 +1,17 @@
+div.carousel-item > img {
+    object-fit: cover;
+    
+}
+
+div.carousel-item {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+.carousel-caption h3 {
+    text-align: left;
+    font-size: 2em;
+}
