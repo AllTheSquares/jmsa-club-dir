@@ -2,12 +2,13 @@ import {Carousel} from 'react-bootstrap'
 import './club-showcase.css'
 
 export default function FeaturedClubs(props: any) {
+    const cardSize = "d-block w-100 h-100"
     return (
         <>
-            <Carousel className="showcase-carousel" variant={props.appearance} fade>
+            <Carousel className="showcase-carousel" variant={props.appearance} fade wrap touch  >
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 h-100"
+                        className={cardSize}
                         src="holder.js/800x400?text=Club cover photo&bg=6b2e2e"
                         alt="Club name cover photo"
                     />
@@ -20,7 +21,7 @@ export default function FeaturedClubs(props: any) {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 h-100"
+                        className={cardSize}
                         src="holder.js/800x400?text=Club cover photo&bg=306b2e"
                         alt="Club name cover photo"
                     />
@@ -32,7 +33,7 @@ export default function FeaturedClubs(props: any) {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 h-100"
+                        className={cardSize}
                         src="holder.js/800x400?text=Club cover photo&bg=2e416b"
                         alt="Third slide"
                     />
